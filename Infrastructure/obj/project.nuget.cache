@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eFRMxCIJu3YdYzlCUyUw1xdADYcY2kSzG/wE1EKYBwnYgJkLJrJeRawCUrtj3iTGSCHtvfLSmr+JRXR4uEWoSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Nemanja\\Private\\Projekti\\NBI-Handelsakademin\\Kurs\\KURS DELAR\\6 - API\\Code Along Clean API\\Clean-API\\Infrastructure\\Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\neman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
