@@ -14,6 +14,20 @@ artifacts/
 # Rider
 .idea/
 
+# .gitignore file for C# projects
+bin/
+obj/
+*.user
+*.suo
+*.nuget/
+*.dotCover
+*.resharper
+_ReSharper*/
+*.ncrunch*
+*.dotSettings.user
+*.sln.docstates
+
+
 # User-specific files
 *.suo
 *.user
