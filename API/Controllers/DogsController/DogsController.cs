@@ -28,6 +28,7 @@ namespace API.Controllers.DogsController
             //return Ok("GET ALL DOGS");
         }
 
+        // Get a dog by Id
         [HttpGet]
         [Route("getDogById/{dogId}")]
         public async Task<IActionResult> GetDogById(Guid dogId)
@@ -41,19 +42,6 @@ namespace API.Controllers.DogsController
         public async Task<IActionResult> AddDog([FromBody] DogDto newDog)
         {
             return Ok(await _mediator.Send(new AddDogCommand(newDog)));
- 
         }
-
-        //// PUT api/<ValuesController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] string value)
-        //{
-        //}
-
-        //// DELETE api/<ValuesController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
     }
 }
