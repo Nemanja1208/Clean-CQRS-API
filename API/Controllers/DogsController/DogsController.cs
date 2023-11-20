@@ -1,6 +1,7 @@
 ﻿using Application.Commands.Dogs;
+using Application.Commands.Dogs.UpdateDog;
 using Application.Dtos;
-using Application.Queries.Dogs;
+using Application.Queries.Dogs.GetAll;
 using Application.Queries.Dogs.GetById;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -43,5 +44,16 @@ namespace API.Controllers.DogsController
         {
             return Ok(await _mediator.Send(new AddDogCommand(newDog)));
         }
+
+        // Update a specific dog
+        [HttpPut]
+        [Route("updateDog/{updatedDogId}")]
+        public async Task<IActionResult> UpdateDog([FromBody] DogDto updatedDog, Guid updatedDogId)
+        {
+            return Ok(await _mediator.Send(new UpdateDogByIdCommand(updatedDog, updatedDogId)));
+        }
+
+        // IMPLEMENT DELETE !!!
+
     }
 }

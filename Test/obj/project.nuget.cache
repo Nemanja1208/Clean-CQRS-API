@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "Z3wIUMT4OqogFA2s4IvB84CI2n/9VfTZCt0L69ILlQS4CU7c965kMnrXBCeHT5RWXd95DUNHqxX3whIBEEPVww==",
+  "dgSpecHash": "pF/MuZcxBfd4TEVwAV66WhVAzCE2H57Jmv775YHRd58QhYwNHPysuQs3HPoVRfFUWFRBC6PtQ5STDdF0bXdl0Q==",
   "success": true,
   "projectFilePath": "C:\\Nemanja\\Private\\Projekti\\NBI-Handelsakademin\\Kurs\\KURS DELAR\\6 - API\\Code Along Clean API\\Clean-API\\Test\\Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neman\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\fluentvalidation\\11.8.0\\fluentvalidation.11.8.0.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.0\\fluentvalidation.dependencyinjectionextensions.11.8.0.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",
+    "C:\\Users\\neman\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.net.test.sdk\\17.7.1\\microsoft.net.test.sdk.17.7.1.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\neman\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.7.1\\microsoft.testplatform.objectmodel.17.7.1.nupkg.sha512",
